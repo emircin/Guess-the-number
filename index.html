@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <header> <p>Guess The Number <br> <span class="first-number">1</span> to <span class="second-number">100</span> </p> </header>
+
+    <section class="input-section">
+            <input type="text" id="guess" name="guess" placeholder="Let's Guess">
+            <button id="check">CHECK</button>
+            <button id="start">RESTART</button>
+    </section>
+
+    <div><p class="footer--text-1">Write a Number.</p></div>
+
+    <main>
+        <div class="first"><img src="./images/up.png" alt="" class="left-img"></div>
+        <div class="second"><img src="./images/Question-Mark.png" alt="" class="center-img"></div>
+        <div class="third"><img src="./images/down.png" alt="" class="right-img"></div>
+    </main>
+
+    <footer>
+        <p class="footer--text-2">You have (<span class="attempt">10</span>) turns left.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-image: linear-gradient(to right, rgb(225, 0, 255), yellow);
+}
+header{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.9rem;
+    font-weight:900;
+    font-family: 'Akaya Telivigala', cursive;
+    letter-spacing: 0.3rem;
+    color: black;
+}
+main{
+    display: flex;
+    justify-content:space-between;
+}
+main div{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+button {
+    margin-left: 8px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background-color: #689df6;
+    color: aliceblue;
+    font-size: 1.2rem;
+    border: none;
+    cursor:pointer;
+    font-family: 'Akaya Telivigala', cursive;
+}
+input{
+    border-radius: 3px;
+    border: none;
+    padding: 0 5px;
+    color:#689df6;
+    font-size: 1rem;
+}
+.center-img{
+    width:80%
+}
+.left-img{
+    width: 30%;
+    display: none;
+}
+.right-img{
+    width: 30%;
+    display: none;
+}
+input::placeholder{
+    color:#689df6;
+    font-family: sans-serif;
+    /* letter-spacing: 0.3rem; */
+    font-size: 0.8rem;
+}
+input:focus{
+   outline-color: #689df6;
+}
+
+footer p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.footer--text-1 {
+    font-size: 1.8rem;
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+    margin-top: 2rem;
+}
+.attempt{
+    color: red;
+}

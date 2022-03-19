@@ -4,7 +4,7 @@
 
 ### Links
 
-- Live Site URL: https://amustafaozkayam.github.io/guess-the-number/
+- Live Site URL: https://emircin.github.io/Guess-the-number/
 
 ### The challenge
 
